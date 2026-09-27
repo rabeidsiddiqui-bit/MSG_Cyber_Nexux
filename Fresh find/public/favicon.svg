@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient: Deep Botanical Forest -->
+    <linearGradient id="ffBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#092617" />
+      <stop offset="45%" stop-color="#143e2a" />
+      <stop offset="100%" stop-color="#1e5439" />
+    </linearGradient>
+
+    <!-- Beveled Glowing Border -->
+    <linearGradient id="ffRim" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#74c69d" stop-opacity="0.5" />
+      <stop offset="50%" stop-color="#52b788" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#e9c46a" stop-opacity="0.4" />
+    </linearGradient>
+
+    <!-- Primary Emerald Leaf -->
+    <linearGradient id="ffLeaf1" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1b4332" />
+      <stop offset="30%" stop-color="#2d6a4f" />
+      <stop offset="70%" stop-color="#40916c" />
+      <stop offset="100%" stop-color="#74c69d" />
+    </linearGradient>
+
+    <!-- Secondary Bright Sprout Leaf -->
+    <linearGradient id="ffLeaf2" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#40916c" />
+      <stop offset="50%" stop-color="#52b788" />
+      <stop offset="100%" stop-color="#b7efc5" />
+    </linearGradient>
+
+    <!-- Central Living Stem -->
+    <linearGradient id="ffStem" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#2d6a4f" />
+      <stop offset="60%" stop-color="#52b788" />
+      <stop offset="100%" stop-color="#95d5b2" />
+    </linearGradient>
+
+    <!-- Market Basket / Discovery Arc -->
+    <linearGradient id="ffBasket" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#40916c" />
+      <stop offset="50%" stop-color="#74c69d" />
+      <stop offset="100%" stop-color="#f4a261" />
+    </linearGradient>
+
+    <!-- Golden Harvest Sun & Discovery Sparkle -->
+    <linearGradient id="ffSun" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff8d6" />
+      <stop offset="40%" stop-color="#f9c74f" />
+      <stop offset="100%" stop-color="#f3722c" />
+    </linearGradient>
+
+    <filter id="ffGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="3" stdDeviation="3.5" flood-color="#000000" flood-opacity="0.3" />
+    </filter>
+
+    <filter id="ffSparkGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="1" stdDeviation="2.5" flood-color="#f9c74f" flood-opacity="0.55" />
+    </filter>
+  </defs>
+
+  <!-- Modern Squircle Base -->
+  <rect x="2" y="2" width="116" height="116" rx="28" fill="url(#ffBg)" filter="url(#ffGlow)" />
+  <rect x="3" y="3" width="114" height="114" rx="27" fill="none" stroke="url(#ffRim)" stroke-width="1.8" />
+
+  <!-- Subtle Radial Ambient Light -->
+  <circle cx="60" cy="58" r="32" fill="#52b788" opacity="0.16" />
+
+  <!-- MARKET BASKET & HARVEST DISCOVERY CRADLE -->
+  <!-- Elegant swooping market basket arc cradling the organic produce -->
+  <path d="M26 68 C30 84, 44 94, 60 94 C76 94, 90 84, 94 68 C88 74, 75 79, 60 79 C45 79, 32 74, 26 68 Z"
+        fill="url(#ffBasket)" opacity="0.95" />
+
+  <!-- Handcrafted Woven Basket Rib Accents -->
+  <path d="M42 77 C44 83, 49 88, 52 91" stroke="#092617" stroke-width="2.2" stroke-linecap="round" opacity="0.6" />
+  <path d="M60 79 V94" stroke="#092617" stroke-width="2.2" stroke-linecap="round" opacity="0.6" />
+  <path d="M78 77 C76 83, 71 88, 68 91" stroke="#092617" stroke-width="2.2" stroke-linecap="round" opacity="0.6" />
+
+  <!-- CENTRAL SPROUT STEM -->
+  <path d="M60 79 V46" stroke="url(#ffStem)" stroke-width="4.5" stroke-linecap="round" />
+
+  <!-- PRIMARY FRESH LEAF (Left, sweeping gracefully upward like an organic 'F') -->
+  <path d="M60 72 C46 72, 28 58, 34 35 C44 44, 56 54, 60 72 Z"
+        fill="url(#ffLeaf1)" />
+  <!-- Delicate Vein on Primary Leaf -->
+  <path d="M48 57 C42 48, 38 41, 36 37" stroke="#b7efc5" stroke-width="1.6" stroke-linecap="round" opacity="0.75" />
+
+  <!-- SECONDARY FRESH SPROUT (Right, opening towards the golden morning sun) -->
+  <path d="M60 64 C73 63, 92 53, 86 33 C77 42, 66 50, 60 64 Z"
+        fill="url(#ffLeaf2)" />
+  <!-- Delicate Vein on Secondary Leaf -->
+  <path d="M69 53 C76 45, 81 39, 84 35" stroke="#ffffff" stroke-width="1.6" stroke-linecap="round" opacity="0.75" />
+
+  <!-- GOLDEN HARVEST SUN / DISCOVERY BEACON ("Find") -->
+  <circle cx="60" cy="24" r="8.5" fill="url(#ffSun)" filter="url(#ffSparkGlow)" />
+
+  <!-- 4-Point Brilliant Discovery Sparkle -->
+  <path d="M60 17 C60 22, 61 23, 65 24 C61 25, 60 26, 60 31 C60 26, 59 25, 55 24 C59 23, 60 22, 60 17 Z"
+        fill="#ffffff" />
+</svg>

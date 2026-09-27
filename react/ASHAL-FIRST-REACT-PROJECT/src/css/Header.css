@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.ecommerce-header {
+  background-color: #ffffff;
+  border-bottom: 1px solid #e5e7eb;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.header-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 5%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header-logo a {
+  text-decoration: none;
+  color: #1f2937;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.header-search {
+  display: flex;
+  flex: 1;
+  max-width: 500px;
+  margin: 0 2rem;
+}
+
+.header-search input {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  border: 1px solid #d1d5db;
+  border-right: none;
+  border-radius: 4px 0 0 4px;
+  outline: none;
+}
+
+.header-search input:focus {
+  border-color: #3b82f6;
+}
+
+.header-search button {
+  padding: 0.5rem 1.2rem;
+  background-color: #3b82f6;
+  color: white;
+  border: 1px solid #3b82f6;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.header-search button:hover {
+  background-color: #2563eb;
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.action-item {
+  text-decoration: none;
+  color: #4b5563;
+  font-weight: 500;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.action-item:hover {
+  color: #3b82f6;
+}
+
+.cart-item .cart-badge {
+  background-color: #ef4444;
+  color: white;
+  font-size: 0.75rem;
+  padding: 0.1rem 0.4rem;
+  border-radius: 50%;
+  position: absolute;
+  top: -8px;
+  right: -12px;
+  font-weight: bold;
+}
+
+.header-nav {
+  background-color: #1f2937;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 0.75rem 5%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: #f3f4f6;
+  font-size: 0.9rem;
+  transition: color 0.2s;
+}
+
+.nav-list a:hover {
+  color: #93c5fd;
+}
+
+@media (max-width: 768px) {
+  .header-main {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .header-search {
+    width: 100%;
+    margin: 0;
+  }
+
+  .nav-list {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+}

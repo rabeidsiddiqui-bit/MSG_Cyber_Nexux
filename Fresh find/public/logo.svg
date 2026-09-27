@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <!-- Background circle with gradient feel -->
+  <defs>
+    <radialGradient id="bgGrad" cx="40%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#3a6b50"/>
+      <stop offset="100%" stop-color="#1b3d2b"/>
+    </radialGradient>
+    <radialGradient id="leafGrad" cx="50%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#74c69d"/>
+      <stop offset="100%" stop-color="#40916c"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Outer background circle -->
+  <circle cx="60" cy="60" r="58" fill="url(#bgGrad)"/>
+
+  <!-- Subtle outer glow ring -->
+  <circle cx="60" cy="60" r="56" fill="none" stroke="#52b788" stroke-width="1.5" opacity="0.35"/>
+
+  <!-- Basket body -->
+  <path d="M32 70 Q32 88 60 90 Q88 88 88 70 L84 58 Q60 62 36 58 Z" fill="#e9c46a" opacity="0.92"/>
+
+  <!-- Basket weave lines -->
+  <line x1="36" y1="60" x2="36" y2="88" stroke="#c8933a" stroke-width="1" opacity="0.5"/>
+  <line x1="48" y1="61" x2="46" y2="89" stroke="#c8933a" stroke-width="1" opacity="0.5"/>
+  <line x1="60" y1="62" x2="60" y2="90" stroke="#c8933a" stroke-width="1" opacity="0.5"/>
+  <line x1="72" y1="61" x2="74" y2="89" stroke="#c8933a" stroke-width="1" opacity="0.5"/>
+  <line x1="84" y1="60" x2="84" y2="88" stroke="#c8933a" stroke-width="1" opacity="0.5"/>
+
+  <!-- Basket handle arc -->
+  <path d="M42 60 Q42 40 60 38 Q78 40 78 60" fill="none" stroke="#e9c46a" stroke-width="4" stroke-linecap="round" opacity="0.9"/>
+
+  <!-- Apple (red) -->
+  <ellipse cx="48" cy="57" rx="8" ry="9" fill="#e63946"/>
+  <path d="M48 48 Q50 44 53 46" fill="none" stroke="#2d6a4f" stroke-width="1.5" stroke-linecap="round"/>
+
+  <!-- Mango (orange/yellow) -->
+  <ellipse cx="63" cy="54" rx="7" ry="10" fill="#f4a261" transform="rotate(-15, 63, 54)"/>
+
+  <!-- Green leaf on mango -->
+  <path d="M66 44 Q72 40 71 48 Q66 47 66 44Z" fill="#52b788" opacity="0.9"/>
+
+  <!-- Tomato (red-orange) -->
+  <ellipse cx="76" cy="58" rx="7" ry="7" fill="#e76f51"/>
+  <line x1="76" y1="51" x2="76" y2="48" stroke="#2d6a4f" stroke-width="1.5" stroke-linecap="round"/>
+
+  <!-- Decorative leaf accent top-left -->
+  <path d="M25 38 Q32 25 42 32 Q34 40 25 38Z" fill="#52b788" opacity="0.7"/>
+  <line x1="25" y1="38" x2="42" y2="32" stroke="#fff" stroke-width="0.8" opacity="0.5"/>
+
+  <!-- FF letter watermark subtle -->
+  <text x="60" y="105" font-family="Arial, sans-serif" font-size="8" font-weight="900" fill="#fff" text-anchor="middle" opacity="0.65" letter-spacing="2">FF</text>
+</svg>

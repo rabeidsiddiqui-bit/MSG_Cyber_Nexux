@@ -1,0 +1,465 @@
+[
+  {
+    "id": "empress-market-saddar",
+    "name": "Empress Market Saddar",
+    "tagline": "Karachi's historic Victorian hub for fresh herbs, spices & farm produce",
+    "category": "Heritage Market",
+    "area": "Saddar, Karachi",
+    "address": "Preedy Street, Saddar Town, Karachi, Sindh 74400",
+    "coordinates": {
+      "lat": 24.8624,
+      "lng": 67.0253
+    },
+    "operatingDays": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday"
+    ],
+    "openingTime": "08:00",
+    "closingTime": "20:30",
+    "hoursDisplay": "Mon - Sat: 8:00 AM - 8:30 PM",
+    "scheduleDetails": {
+      "Monday": "8:00 AM - 8:30 PM",
+      "Tuesday": "8:00 AM - 8:30 PM",
+      "Wednesday": "8:00 AM - 8:30 PM",
+      "Thursday": "8:00 AM - 8:30 PM",
+      "Friday": "8:00 AM - 1:00 PM, 3:00 PM - 8:30 PM",
+      "Saturday": "8:00 AM - 9:00 PM"
+    },
+    "description": "Standing tall since 1889 in the heart of Saddar, Empress Market is Karachi's most celebrated heritage marketplace. It houses hundreds of vendor stalls offering fresh morning vegetables from Malir, exotic fruits, freshly grounded spices, pure mountain honey, and indigenous herbs.",
+    "thumbnail": "/images/market-empress-market-saddar.jpg",
+    "rating": 4.8,
+    "reviewCount": 420,
+    "phone": "+92 21 3568 2210",
+    "email": "info@empressmarket.org.pk",
+    "website": "https://freshfind.pk/markets/empress-market",
+    "amenities": [
+      "Historic Clock Tower",
+      "Public Parking Nearby",
+      "Wheelchair Ramp",
+      "Fresh Fruit Juice Stalls",
+      "Cash & JazzCash Accepted"
+    ],
+    "produceAvailable": [
+      "farm-tomatoes",
+      "desi-palak",
+      "green-chillies",
+      "sindhri-mangoes",
+      "fresh-guava",
+      "pure-desi-ghee",
+      "wild-honey",
+      "okra-bhindi"
+    ],
+    "vendorCount": 180,
+    "establishedYear": 1889,
+    "bestTimeToVisit": "Morning between 8:30 AM and 11:30 AM when fresh trucks arrive directly from Thatta and Malir farms."
+  },
+  {
+    "id": "sunday-bachat-bazaar-clifton",
+    "name": "Sunday Bachat Bazaar Clifton",
+    "tagline": "Mega weekly open-air bazaar offering farm-direct prices by the Arabian Sea",
+    "category": "Bachat Bazaar",
+    "area": "Clifton, Karachi",
+    "address": "Near Marine Promenade & Sea View, Block 2, Clifton, Karachi",
+    "coordinates": {
+      "lat": 24.8198,
+      "lng": 67.0315
+    },
+    "operatingDays": [
+      "Sunday"
+    ],
+    "openingTime": "07:30",
+    "closingTime": "21:30",
+    "hoursDisplay": "Every Sunday: 7:30 AM - 9:30 PM",
+    "scheduleDetails": {
+      "Sunday": "7:30 AM - 9:30 PM"
+    },
+    "description": "The Clifton Sunday Bachat Bazaar is Karachi's premier weekend open market. Families flock here every Sunday for farm-fresh fruits, crispy winter and summer greens, farm-fresh eggs, and bulk kitchen staples at government-regulated discount rates.",
+    "thumbnail": "/images/market-sunday-bachat-bazaar-clifton.jpg",
+    "rating": 4.9,
+    "reviewCount": 612,
+    "phone": "+92 335 7787562",
+    "email": "cliftonbazaar@freshfind.pk",
+    "website": "https://freshfind.pk/markets/clifton-sunday",
+    "amenities": [
+      "Designated Family Parking",
+      "Security Guards & CCTV",
+      "Fresh Sugar Cane Juice Stalls",
+      "Wheelchair Accessible Paths",
+      "EasyPaisa / Raast Accepted"
+    ],
+    "produceAvailable": [
+      "farm-tomatoes",
+      "sindhri-mangoes",
+      "swat-apples",
+      "okra-bhindi",
+      "desi-eggs",
+      "crisp-kale",
+      "chaunsa-mangoes",
+      "desi-palak"
+    ],
+    "vendorCount": 240,
+    "establishedYear": 2004,
+    "bestTimeToVisit": "Sunday morning between 8:00 AM - 10:30 AM for the coolest sea breeze and crispest greens."
+  },
+  {
+    "id": "new-sabzi-mandi-karachi",
+    "name": "New Sabzi Market Super Highway",
+    "tagline": "Sindh's largest wholesale central terminal for fresh harvest and daily auctions",
+    "category": "Wholesale Market",
+    "area": "Super Highway, Karachi",
+    "address": "Main Super Highway (M-9), Northern Bypass Junction, Karachi",
+    "coordinates": {
+      "lat": 24.9982,
+      "lng": 67.1428
+    },
+    "operatingDays": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "openingTime": "04:00",
+    "closingTime": "16:00",
+    "hoursDisplay": "Daily: 4:00 AM - 4:00 PM (Wholesale & Retail)",
+    "scheduleDetails": {
+      "Monday": "4:00 AM - 4:00 PM",
+      "Tuesday": "4:00 AM - 4:00 PM",
+      "Wednesday": "4:00 AM - 4:00 PM",
+      "Thursday": "4:00 AM - 4:00 PM",
+      "Friday": "4:00 AM - 4:00 PM",
+      "Saturday": "4:00 AM - 4:00 PM",
+      "Sunday": "4:00 AM - 4:00 PM"
+    },
+    "description": "The nerve center of Karachi's fresh food supply. Spread over dozens of acres along the M-9 motorway, thousands of trucks arrive nightly from Sindh, Punjab, and Balochistan. Offers unbeatable crate-level wholesale prices as well as retail stalls for everyday shoppers.",
+    "thumbnail": "/images/market-new-sabzi-mandi-karachi.jpg",
+    "rating": 4.7,
+    "reviewCount": 890,
+    "phone": "+92 21 3683 4500",
+    "email": "mandi@sabzimandikarachi.gov.pk",
+    "website": "https://freshfind.pk/markets/new-sabzi-mandi",
+    "amenities": [
+      "Extensive Truck & Car Parking",
+      "Wholesale Auction Sheds",
+      "Cold Storage Units",
+      "24/7 Chai & Dhaba Stalls",
+      "ATM Services"
+    ],
+    "produceAvailable": [
+      "farm-tomatoes",
+      "desi-palak",
+      "sindhri-mangoes",
+      "swat-apples",
+      "okra-bhindi",
+      "fresh-guava",
+      "kinnow-oranges",
+      "green-chillies"
+    ],
+    "vendorCount": 550,
+    "establishedYear": 2001,
+    "bestTimeToVisit": "4:30 AM to 7:00 AM for early morning wholesale bidding, or 8:00 AM to 11:00 AM for family crate shopping."
+  },
+  {
+    "id": "dha-farmers-market",
+    "name": "DHA Sunday Farmers Market",
+    "tagline": "Artisan organic growers, hydroponic greens & chemical-free farm dairy",
+    "category": "Farmers & Organic Market",
+    "area": "DHA Phase 8, Karachi",
+    "address": "Captain Farhan Shaheed Park, Khayaban-e-Ittehad, Phase 8, DHA, Karachi",
+    "coordinates": {
+      "lat": 24.7865,
+      "lng": 67.0673
+    },
+    "operatingDays": [
+      "Sunday"
+    ],
+    "openingTime": "08:00",
+    "closingTime": "15:00",
+    "hoursDisplay": "Every Sunday: 8:00 AM - 3:00 PM",
+    "scheduleDetails": {
+      "Sunday": "8:00 AM - 3:00 PM"
+    },
+    "description": "An upscale, community-driven weekend farmers market in DHA Karachi. Connects conscious consumers directly with certified organic growers, hydroponic salad cultivators, free-range poultry farmers, and artisanal bakers.",
+    "thumbnail": "/images/market-dha-farmers-market.jpg",
+    "rating": 4.9,
+    "reviewCount": 310,
+    "phone": "+92 300 1234567",
+    "email": "dhafarmers@freshfind.pk",
+    "website": "https://freshfind.pk/markets/dha-farmers",
+    "amenities": [
+      "Organic Food Tasting Stalls",
+      "Shaded Green Lawn Seating",
+      "Live Sourdough Baking",
+      "Pet Friendly",
+      "Card & Digital Payments"
+    ],
+    "produceAvailable": [
+      "organic-strawberries",
+      "crisp-kale",
+      "desi-eggs",
+      "wild-honey",
+      "fresh-sourdough",
+      "swat-apples",
+      "pure-desi-ghee"
+    ],
+    "vendorCount": 48,
+    "establishedYear": 2018,
+    "bestTimeToVisit": "Sunday 9:00 AM for the freshest microgreens, organic kale, and sourdough loaves."
+  },
+  {
+    "id": "gulshan-sunday-mandi",
+    "name": "Gulshan-e-Iqbal Sunday Market",
+    "tagline": "Vibrant community bachat market with fresh produce from Malir green belt",
+    "category": "Bachat Bazaar",
+    "area": "Gulshan-e-Iqbal, Karachi",
+    "address": "Block 13-D, Near Hasan Square & Expo Centre, Gulshan-e-Iqbal, Karachi",
+    "coordinates": {
+      "lat": 24.9127,
+      "lng": 67.0862
+    },
+    "operatingDays": [
+      "Wednesday",
+      "Sunday"
+    ],
+    "openingTime": "08:00",
+    "closingTime": "19:30",
+    "hoursDisplay": "Wed & Sun: 8:00 AM - 7:30 PM",
+    "scheduleDetails": {
+      "Wednesday": "8:00 AM - 7:00 PM",
+      "Sunday": "8:00 AM - 7:30 PM"
+    },
+    "description": "Centrally located right by University Road, Gulshan Sunday Market serves thousands of families living in Gulshan, Johar, and Federal B Area. Vendors bring fresh spinach, coriander, mint, and daily vegetables directly from Malir agricultural belt.",
+    "thumbnail": "/images/market-gulshan-sunday-mandi.jpg",
+    "rating": 4.7,
+    "reviewCount": 380,
+    "phone": "+92 21 3498 7654",
+    "email": "gulshan@freshfind.pk",
+    "website": "https://freshfind.pk/markets/gulshan-sunday",
+    "amenities": [
+      "Motorbike & Car Parking",
+      "Shaded Canopies",
+      "Fresh Desi Lassi Stalls",
+      "Clean Weighing Stations"
+    ],
+    "produceAvailable": [
+      "farm-tomatoes",
+      "desi-palak",
+      "okra-bhindi",
+      "green-chillies",
+      "sindhri-mangoes",
+      "desi-eggs"
+    ],
+    "vendorCount": 110,
+    "establishedYear": 2008,
+    "bestTimeToVisit": "Sunday 9:00 AM - 11:30 AM for the most variety of fresh leafy greens."
+  },
+  {
+    "id": "jodia-bazaar-karachi",
+    "name": "Jodia Bazaar Commodities & Fresh Mart",
+    "tagline": "Historic market for authentic dry fruits, raw honey, organic spices & grains",
+    "category": "Wholesale Commodities",
+    "area": "Old Town, Karachi",
+    "address": "Daryalal Street, Jodia Bazaar, Kharadar, Karachi",
+    "coordinates": {
+      "lat": 24.8542,
+      "lng": 67.0019
+    },
+    "operatingDays": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday"
+    ],
+    "openingTime": "09:30",
+    "closingTime": "20:00",
+    "hoursDisplay": "Mon - Sat: 9:30 AM - 8:00 PM",
+    "scheduleDetails": {
+      "Monday": "9:30 AM - 8:00 PM",
+      "Tuesday": "9:30 AM - 8:00 PM",
+      "Wednesday": "9:30 AM - 8:00 PM",
+      "Thursday": "9:30 AM - 8:00 PM",
+      "Friday": "9:30 AM - 12:30 PM, 3:00 PM - 8:00 PM",
+      "Saturday": "9:30 AM - 8:30 PM"
+    },
+    "description": "Known as one of Asia's largest wholesale grocery and dry commodities hubs, Jodia Bazaar connects traders from Gilgit, Swat, Balochistan, and Sindh. Top spot for unadulterated pure honey, cold-pressed mustard oil, and Khairpur dates.",
+    "thumbnail": "/images/market-jodia-bazaar-karachi.jpg",
+    "rating": 4.8,
+    "reviewCount": 490,
+    "phone": "+92 21 3241 8976",
+    "email": "jodia@freshfind.pk",
+    "website": "https://freshfind.pk/markets/jodia-bazaar",
+    "amenities": [
+      "Traditional Wholesale Shops",
+      "Sampling & Bulk Tasting",
+      "Historic Architecture",
+      "Tea Houses & Refreshments"
+    ],
+    "produceAvailable": [
+      "wild-honey",
+      "pure-desi-ghee",
+      "green-chillies",
+      "fresh-sourdough"
+    ],
+    "vendorCount": 320,
+    "establishedYear": 1948,
+    "bestTimeToVisit": "Weekday afternoons between 2:00 PM and 5:00 PM when retail sampling is leisurely."
+  },
+  {
+    "id": "liaquatabad-super-market",
+    "name": "Liaquatabad Super Market",
+    "tagline": "Popular central market for daily fresh vegetables, poultry and seasonal fruits",
+    "category": "Community Market",
+    "area": "Liaquatabad, Karachi",
+    "address": "Main Liaquatabad No. 10, Central District, Karachi",
+    "coordinates": {
+      "lat": 24.9082,
+      "lng": 67.0425
+    },
+    "operatingDays": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "openingTime": "08:00",
+    "closingTime": "21:00",
+    "hoursDisplay": "Daily: 8:00 AM - 9:00 PM",
+    "scheduleDetails": {
+      "Monday": "8:00 AM - 9:00 PM",
+      "Tuesday": "8:00 AM - 9:00 PM",
+      "Wednesday": "8:00 AM - 9:00 PM",
+      "Thursday": "8:00 AM - 9:00 PM",
+      "Friday": "8:00 AM - 1:00 PM, 3:00 PM - 9:00 PM",
+      "Saturday": "8:00 AM - 9:30 PM",
+      "Sunday": "8:00 AM - 9:00 PM"
+    },
+    "description": "Liaquatabad Super Market is a bustling, reliable community lifeline for central Karachi. Features rows of fresh vegetable vendors, mountain fruits from Quetta, and dairy suppliers selling fresh buffalo milk and butter.",
+    "thumbnail": "/images/market-liaquatabad-super-market.jpg",
+    "rating": 4.6,
+    "reviewCount": 275,
+    "phone": "+92 21 3491 5522",
+    "email": "liaquatabad@freshfind.pk",
+    "website": "https://freshfind.pk/markets/liaquatabad",
+    "amenities": [
+      "Easy Bus & Rickshaw Access",
+      "Fresh Poultry Section",
+      "Fruit Cutting & Peeling Services"
+    ],
+    "produceAvailable": [
+      "farm-tomatoes",
+      "desi-palak",
+      "okra-bhindi",
+      "fresh-guava",
+      "swat-apples",
+      "desi-eggs"
+    ],
+    "vendorCount": 130,
+    "establishedYear": 1962,
+    "bestTimeToVisit": "Morning 8:30 AM - 11:00 AM for fresh unbruised fruits."
+  },
+  {
+    "id": "model-town-mandi-lahore",
+    "name": "Model Town Sunday Market",
+    "tagline": "Lush green open market for organic Punjab harvests and direct farm milk",
+    "category": "Farmers & Organic Market",
+    "area": "Model Town, Lahore",
+    "address": "Model Town C-Block Central Grounds, Lahore, Punjab",
+    "coordinates": {
+      "lat": 31.4883,
+      "lng": 74.3197
+    },
+    "operatingDays": [
+      "Sunday"
+    ],
+    "openingTime": "07:30",
+    "closingTime": "15:00",
+    "hoursDisplay": "Every Sunday: 7:30 AM - 3:00 PM",
+    "scheduleDetails": {
+      "Sunday": "7:30 AM - 3:00 PM"
+    },
+    "description": "Set in Lahore's serene Model Town, this market features farmers from Kasur, Okara, and Faisalabad selling unpasteurized dairy, Multani Chaunsa mangoes in season, mustard greens (sarson ka saag), and stoneground corn flour.",
+    "thumbnail": "/images/market-model-town-mandi-lahore.jpg",
+    "rating": 4.9,
+    "reviewCount": 350,
+    "phone": "+92 42 3584 1120",
+    "email": "lahore@freshfind.pk",
+    "website": "https://freshfind.pk/markets/model-town-lahore",
+    "amenities": [
+      "Ample Park Lawn Parking",
+      "Fresh Pure Sugarcane Juice",
+      "Organic Desi Ghee Samples",
+      "Family Friendly"
+    ],
+    "produceAvailable": [
+      "chaunsa-mangoes",
+      "farm-tomatoes",
+      "desi-eggs",
+      "pure-desi-ghee",
+      "wild-honey",
+      "desi-palak"
+    ],
+    "vendorCount": 95,
+    "establishedYear": 2011,
+    "bestTimeToVisit": "Sunday early morning between 8:00 AM and 10:00 AM."
+  },
+  {
+    "id": "h9-itwar-bazaar-islamabad",
+    "name": "H-9 Weekly Bachat Bazaar",
+    "tagline": "The capital's largest open farmer's market with Swat & KPK fresh crops",
+    "category": "Bachat Bazaar",
+    "area": "Sector H-9, Islamabad",
+    "address": "Srinagar Highway, Sector H-9, Islamabad, Federal Capital",
+    "coordinates": {
+      "lat": 33.6732,
+      "lng": 73.0421
+    },
+    "operatingDays": [
+      "Tuesday",
+      "Friday",
+      "Sunday"
+    ],
+    "openingTime": "08:00",
+    "closingTime": "18:00",
+    "hoursDisplay": "Tue, Fri & Sun: 8:00 AM - 6:00 PM",
+    "scheduleDetails": {
+      "Tuesday": "8:00 AM - 6:00 PM",
+      "Friday": "8:00 AM - 6:00 PM",
+      "Sunday": "8:00 AM - 6:00 PM"
+    },
+    "description": "Islamabad's famous sprawling H-9 Bazaar with hundreds of organized stalls. Renowned for crispy Swat apples, organic walnuts, seasonal berries, honey from Abbottabad, and crisp farm-direct vegetables.",
+    "thumbnail": "/images/market-h9-itwar-bazaar-islamabad.jpg",
+    "rating": 4.8,
+    "reviewCount": 540,
+    "phone": "+92 51 9260 311",
+    "email": "islamabad@freshfind.pk",
+    "website": "https://freshfind.pk/markets/h9-islamabad",
+    "amenities": [
+      "Covered Stall Hangars",
+      "Paved Walkways",
+      "Dedicated Metro Bus Link",
+      "Food Court with Traditional Delicacies"
+    ],
+    "produceAvailable": [
+      "swat-apples",
+      "wild-honey",
+      "kinnow-oranges",
+      "chaunsa-mangoes",
+      "farm-tomatoes",
+      "organic-strawberries"
+    ],
+    "vendorCount": 310,
+    "establishedYear": 1996,
+    "bestTimeToVisit": "Sunday 9:00 AM - 12:00 PM for the freshest mountain produce and dry fruits."
+  }
+]

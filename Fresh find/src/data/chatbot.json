@@ -1,0 +1,123 @@
+{
+  "botInfo": {
+    "name": "FreshBot",
+    "role": "Farmers Market & Produce Assistant",
+    "welcomeMessage": "Hello! 🌱 I am FreshBot, your virtual assistant for farmers markets, bachat bazaars, and fresh produce. How can I help you today? You can ask me in English, Roman Urdu, or Urdu!",
+    "offlineNotice": "Real-time guide with verified market timings and produce prices."
+  },
+  "suggestedPrompts": [
+    {
+      "text": "When do Sunday Bachat Bazaars open in Karachi?",
+      "icon": "📍",
+      "summary": "Sunday Bachat Bazaars"
+    },
+    {
+      "text": "What are today's mandi rates for tomatoes and mangoes?",
+      "icon": "🥭",
+      "summary": "Today's Mandi Rates"
+    },
+    {
+      "text": "What are the timings of Empress Market Saddar?",
+      "icon": "🏛️",
+      "summary": "Empress Market Timings"
+    },
+    {
+      "text": "Wholesale timings for Super Highway Sabzi Mandi?",
+      "icon": "🚛",
+      "summary": "Super Highway Mandi"
+    }
+  ],
+  "quickReplies": [
+    { "text": "Sunday Bachat Bazaars", "intent": "sunday_bazaars" },
+    { "text": "Today's Mandi Rates", "intent": "mandi_rates" },
+    { "text": "Empress Market Saddar", "intent": "empress_market" },
+    { "text": "Super Highway Sabzi Mandi", "intent": "sabzi_mandi" },
+    { "text": "Seasonal Fruits Guide", "intent": "seasonal_guide" },
+    { "text": "How to save items?", "intent": "how_to_bookmark" }
+  ],
+  "intents": [
+    {
+      "id": "greeting",
+      "keywords": ["hi", "hello", "hey", "salam", "assalam", "morning", "evening", "start", "kese ho", "kaise ho", "how are you", "salam alaikum", "assalam o alaikum", "سلام"],
+      "response": "Hello! Welcome to FreshFind. You can ask about Karachi's weekly bachat bazaars, daily wholesale sabzi mandi rates, fresh seasonal crops, or operating timings.",
+      "response_roman": "Wa Alaikum Assalam! Welcome to FreshFind. Aap Karachi ki bachat bazaars, rozana ki wholesale sabzi mandi rates, ya seasonal crops ke baare mein kuch bhi pooch saktay hain.",
+      "response_ur": "وعلیکم السلام! فریش فائنڈ میں خوش آمدید۔ آپ کراچی کی بچت بازاروں، سبزی منڈی کے نرخ، یا تازہ فصلوں کے بارے میں کچھ بھی پوچھ سکتے ہیں۔",
+      "suggestedAction": { "label": "Explore Market Directory", "page": "markets" }
+    },
+    {
+      "id": "sunday_bazaars",
+      "keywords": ["sunday", "bachat", "itwar", "bazaar", "clifton", "gulshan", "اتوار", "بازار"],
+      "response": "Here are the top Sunday Bachat Bazaars in Karachi:\n1. Sunday Bachat Bazaar Clifton (Block 2, Near Sea View) - 7:30 AM to 9:30 PM.\n2. Gulshan-e-Iqbal Sunday Mandi (Block 13-D) - 8:00 AM to 7:30 PM.\n3. DHA Sunday Farmers Market (Phase 8) - 8:00 AM to 3:00 PM.",
+      "response_roman": "Karachi mein mashhoor Sunday Bachat Bazaars yeh hain:\n1. Sunday Bachat Bazaar Clifton (Block 2, Near Sea View) - Subah 7:30 AM se Raat 9:30 PM tak.\n2. Gulshan-e-Iqbal Sunday Mandi (Block 13-D) - Subah 8:00 AM se Shaam 7:30 PM tak.\n3. DHA Sunday Farmers Market (Phase 8) - Subah 8:00 AM se Dopahar 3:00 PM tak.",
+      "response_ur": "کراچی کے مشہور سنڈے بچت بازار:\n1۔ سنڈے بچت بازار کلفٹن (صبح 7:30 تا رات 9:30)\n2۔ گلشن اقبال سنڈے منڈی (صبح 8:00 تا شام 7:30)\n3۔ ڈی ایچ اے فارمرز مارکیٹ (صبح 8:00 تا دوپہر 3:00)",
+      "suggestedAction": { "label": "View Clifton Sunday Bazaar", "page": "market-detail", "marketId": "sunday-bachat-bazaar-clifton" }
+    },
+    {
+      "id": "mandi_rates",
+      "keywords": ["rate", "rates", "price", "prices", "qimat", "tamatar", "mango", "aam", "cost", "tomato", "potato", "aloo", "ریٹ", "قیمت", "ٹماٹر"],
+      "response": "Today's verified wholesale mandi rates:\n🍅 Farm Red Tomatoes: Rs. 120 / kg\n🥭 Sindhri Sweet Mangoes: Rs. 280 / kg\n🥬 Desi Palak: Rs. 60 / bunch\n🍎 Swat Golden Apples: Rs. 220 / kg\n🥒 Crisp Okra (Bhindi): Rs. 140 / kg\n🥚 Desi Farm Eggs: Rs. 360 / dozen\n🧈 Pure Desi Ghee: Rs. 2,400 / kg.",
+      "response_roman": "Aaj ke taza verified Mandi rates:\n🍅 Farm Red Tomatoes: Rs. 120 / kg\n🥭 Sindhri Sweet Mangoes: Rs. 280 / kg\n🥬 Desi Palak: Rs. 60 / bunch\n🍎 Swat Golden Apples: Rs. 220 / kg\n🥒 Crisp Okra (Bhindi): Rs. 140 / kg\n🥚 Desi Farm Eggs: Rs. 360 / dozen\n🧈 Pure Desi Ghee: Rs. 2,400 / kg.",
+      "response_ur": "آج کے تازہ ترین منڈی ریٹس:\n🍅 فارم لال ٹماٹر: 120 روپے فی کلو\n🥭 سندھڑی میٹھے آم: 280 روپے فی کلو\n🥬 دیسی پالک: 60 روپے گٹھی\n🍎 سوات گولڈن سیب: 220 روپے فی کلو\n🥒 بھنڈی: 140 روپے فی کلو\n🥚 دیسی فارم انڈے: 360 روپے درجن\n🧈 خالص دیسی گھی: 2,400 روپے فی کلو",
+      "suggestedAction": { "label": "View All Produce Prices", "page": "produce" }
+    },
+    {
+      "id": "empress_market",
+      "keywords": ["empress", "saddar", "clock tower", "preedy", "ایمپریس"],
+      "response": "Empress Market Saddar is a historic landmark market in Karachi. It operates Monday to Saturday from 8:00 AM to 8:30 PM (with Friday Jummah break). Here you will find fresh Malir greens, pure desi ghee, and dry spices at wholesale rates.",
+      "response_roman": "Empress Market Saddar Karachi ki tareekhi mandi hai! Yeh Monday se Saturday subah 8:00 AM se raat 8:30 PM tak khulti hai (Friday ko Jummah break hota hai). Yahan Malir ki taaza sabziyan aur masalay wholesale rates par miltay hain.",
+      "response_ur": "ایمپریس مارکیٹ صدر کراچی کی تاریخی مارکیٹ ہے۔ یہ پیر تا ہفتہ صبح 8:00 سے رات 8:30 بجے تک کھلی رہتی ہے (جمعہ کو وقفہ ہوتا ہے)۔ یہاں ملیر کی تازہ سبزی اور مصالحے ہول سیل نرخ پر ملتے ہیں۔",
+      "suggestedAction": { "label": "View Empress Market Details", "page": "market-detail", "marketId": "empress-market-saddar" }
+    },
+    {
+      "id": "sabzi_mandi",
+      "keywords": ["sabzi mandi", "super highway", "m9", "wholesale", "boli", "mandi", "سبزی منڈی"],
+      "response": "New Sabzi Mandi on the Super Highway (M-9) is the primary wholesale produce market for Karachi. Wholesale auctions run from 4:00 AM to 4:00 PM. The ideal time for retail and crate shopping is between 6:00 AM and 10:00 AM.",
+      "response_roman": "New Sabzi Mandi Super Highway (M-9) Sindh ki sab se barri markaz mandi hai! Boli aur wholesale subah 4:00 AM se shuru ho kar dopahar 4:00 PM tak jari rehti hai. Subah 6 AM se 10 AM shopping ke liye behtareen waqt hai.",
+      "response_ur": "نیو سبزی منڈی سپر ہائی وے (M-9) کراچی کا مرکزی ہول سیل مرکز ہے۔ بولی صبح 4:00 بجے سے دوپہر 4:00 بجے تک چلتی ہے۔ صبح 6 تا 10 بجے خریداری کے لیے بہترین وقت ہے۔",
+      "suggestedAction": { "label": "View Super Highway Mandi", "page": "market-detail", "marketId": "new-sabzi-mandi-karachi" }
+    },
+    {
+      "id": "mangoes",
+      "keywords": ["mango", "mangoes", "sindhri", "chaunsa", "anwar ratol", "aam", "آم"],
+      "response": "Sindhri Mangoes (from Mirpurkhas) and Multani Chaunsa are currently in season! You can purchase them at wholesale crate prices (around Rs. 280/kg) at Clifton Sunday Bazaar and the Super Highway Mandi.",
+      "response_roman": "Sindhri Mangoes (Mirpurkhas) aur Multani Chaunsa is waqt fresh available hain! Clifton Sunday Bazaar aur Super Highway Mandi se direct wholesale crate rate (Rs. 280/kg) par mil jaye ga.",
+      "response_ur": "سندھڑی اور چونسہ آم اس وقت سیزن میں ہیں! کلفٹن سنڈے بازار اور سپر ہائی وے منڈی میں تھوک کریٹ کے نرخوں پر دستیاب ہیں۔",
+      "suggestedAction": { "label": "View Sindhri Mangoes Guide", "page": "produce", "itemId": "sindhri-mangoes" }
+    },
+    {
+      "id": "organic_greens",
+      "keywords": ["palak", "spinach", "kale", "sabzi", "vegetables", "green", "okra", "bhindi", "سبزی", "پالک", "بھنڈی"],
+      "response": "Fresh leafy greens from Malir's green belt (desi palak, crisp okra, and green chillies) arrive fresh every morning by 8:00 AM at Empress Market and Gulshan Sunday Mandi.",
+      "response_roman": "Malir green belt ki taaza desi palak, hari mirch, aur bhindi Empress Market aur Gulshan Sunday Mandi mein subah 8 baje taza pohonchti hain.",
+      "response_ur": "ملیر کی تازہ دیسی پالک، ہری مرچیں اور بھنڈی روزانہ صبح 8 بجے ایمپریس مارکیٹ اور گلشن سنڈے منڈی میں تازہ پہنچتی ہیں۔",
+      "suggestedAction": { "label": "Browse Fresh Vegetables", "page": "produce" }
+    },
+    {
+      "id": "pure_ghee_honey",
+      "keywords": ["ghee", "honey", "makhan", "shehad", "desi ghee", "khalis", "گھی", "شہد"],
+      "response": "Pure Margalla Sidr Raw Honey and authentic Bilona Desi Ghee are available directly from local artisans at Jodia Bazaar Kharadar and DHA Sunday Farmers Market.",
+      "response_roman": "Khalis Margalla Sidr Raw Honey aur Bilona Desi Ghee Jodia Bazaar Kharadar aur DHA Sunday Farmers Market par dastiyab hai.",
+      "response_ur": "خالص مارگلہ سدر شہد اور دیسی گھی جوڑیا بازار کھارادر اور ڈی ایچ اے سنڈے فارمرز مارکیٹ میں دستیاب ہے۔",
+      "suggestedAction": { "label": "View Artisanal Products", "page": "produce" }
+    },
+    {
+      "id": "seasonal_guide",
+      "keywords": ["season", "seasonal", "calendar", "month", "summer", "winter", "موسم", "سیزن"],
+      "response": "Pakistan Seasonal Harvest Calendar:\n• Summer: Sindhri & Chaunsa Mangoes, Larkana Guavas, Fresh Okra.\n• Winter: Swat Golden Apples, Sargodha Kinnow, Desi Palak.\nVisit the 'Seasonal Picks' page for the complete month-by-month guide!",
+      "response_roman": "Pakistan ke seasonal crops:\n• Garmiyon mein: Sindhri & Chaunsa Mangoes, Larkana Amrood, Okra/Bhindi.\n• Sardiyon mein: Swat Apples, Sargodha Kinnow, Desi Palak.\n'Seasonal Picks' page par mukammal calendar check karein!",
+      "response_ur": "پاکستان کا موسمی فصل کیلنڈر:\n• گرمیوں میں: سندھڑی و چونسہ آم، امرود، بھنڈی۔\n• سردیوں میں: سوات کے سیب، سرگودھا کے کینو، دیسی پالک۔\nمکمل تفصیلات کے لیے 'Seasonal Picks' صفحہ دیکھیں۔",
+      "suggestedAction": { "label": "Explore Seasonal Picks", "page": "seasonal" }
+    },
+    {
+      "id": "how_to_bookmark",
+      "keywords": ["bookmark", "save", "heart", "favorite", "saved", "like", "محفوظ"],
+      "response": "Click the Heart (❤️) icon on any market or produce card. The item will automatically be saved to your 'Saved Basket' which you can view at any time from the top navigation bar.",
+      "response_roman": "Kisi bhi Market ya Produce card par Heart (❤️) icon par click karein. Woh item aap ke 'Saved Basket' mein jama ho jaye ga!",
+      "response_ur": "کسی بھی مارکیٹ یا سبزی کارڈ پر دل (❤️) کے نشان پر کلک کریں۔ وہ چیز آپ کی 'Saved Basket' میں شامل ہو جائے گی۔",
+      "suggestedAction": { "label": "Open Saved Basket", "page": "open-bookmarks" }
+    }
+  ],
+  "defaultResponse": "I understand! Are you looking for market schedules, daily commodity rates, or produce availability? Please use the options below or ask your question:",
+  "defaultResponse_roman": "Main samajh gaya! Kya aap Karachi ki mandis ki timing dhoond rahe hain ya kisi phal/sabzi ka rate maloom karna chahte hain? Neeche diye gaye buttons use karein:",
+  "defaultResponse_ur": "میں سمجھ گیا! کیا آپ منڈی کے اوقات یا تازہ سبزیوں کے ریٹس جاننا چاہتے ہیں؟ نیچے دیے گئے بٹن استعمال کریں:"
+}
